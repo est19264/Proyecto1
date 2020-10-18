@@ -1,0 +1,647 @@
+$date
+	Sat Oct 17 23:58:52 2020
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module testbench $end
+$var wire 2 ! Ta2 [1:0] $end
+$var wire 1 " T2 $end
+$var wire 2 # P2 [1:0] $end
+$var wire 1 $ B2 $end
+$var wire 1 % Ac2 $end
+$var reg 2 & A [1:0] $end
+$var reg 1 ' PB1 $end
+$var reg 1 ( PB2 $end
+$var reg 1 ) PB3 $end
+$var reg 1 * clk $end
+$var reg 1 + reset $end
+$scope module M1 $end
+$var wire 2 , A [1:0] $end
+$var wire 1 - K1 $end
+$var wire 1 . K2 $end
+$var wire 1 / K3 $end
+$var wire 1 ' PB1 $end
+$var wire 1 ( PB2 $end
+$var wire 1 ) PB3 $end
+$var wire 1 * clk $end
+$var wire 1 + reset $end
+$var wire 1 0 Y $end
+$var wire 2 1 Ta2 [1:0] $end
+$var wire 2 2 Ta [1:0] $end
+$var wire 1 " T2 $end
+$var wire 2 3 T [1:0] $end
+$var wire 2 4 P2 [1:0] $end
+$var wire 2 5 P [1:0] $end
+$var wire 1 $ B2 $end
+$var wire 2 6 B [1:0] $end
+$var wire 1 % Ac2 $end
+$var wire 2 7 Ac [1:0] $end
+$scope module I $end
+$var wire 2 8 A [1:0] $end
+$var wire 1 - PB1 $end
+$var wire 1 . PB2 $end
+$var wire 1 / PB3 $end
+$var wire 1 0 Y $end
+$var wire 1 * clk $end
+$var wire 1 + reset $end
+$var wire 2 9 Ta [1:0] $end
+$var wire 2 : T [1:0] $end
+$var wire 2 ; P [1:0] $end
+$var wire 5 < EF [4:0] $end
+$var wire 5 = E [4:0] $end
+$var wire 2 > B [1:0] $end
+$var wire 2 ? Ac [1:0] $end
+$scope module S1 $end
+$var wire 5 @ D [4:0] $end
+$var wire 1 + clk $end
+$var wire 1 * reset $end
+$var reg 5 A S [4:0] $end
+$upscope $end
+$upscope $end
+$scope module J1 $end
+$var wire 1 B Out $end
+$var wire 1 ' PB1 $end
+$var wire 1 C Y1 $end
+$var wire 1 * clk $end
+$var wire 1 - out $end
+$var wire 1 + reset $end
+$var wire 1 D Y2 $end
+$scope module E1 $end
+$var wire 1 C D $end
+$var wire 1 + clk $end
+$var wire 1 * reset $end
+$var reg 1 D S $end
+$upscope $end
+$upscope $end
+$scope module J2 $end
+$var wire 1 E Out $end
+$var wire 1 ( PB2 $end
+$var wire 1 F Y1 $end
+$var wire 1 * clk $end
+$var wire 1 . out $end
+$var wire 1 + reset $end
+$var wire 1 G Y2 $end
+$scope module E1 $end
+$var wire 1 F D $end
+$var wire 1 + clk $end
+$var wire 1 * reset $end
+$var reg 1 G S $end
+$upscope $end
+$upscope $end
+$scope module J3 $end
+$var wire 1 H Out $end
+$var wire 1 ) PB3 $end
+$var wire 1 I Y1 $end
+$var wire 1 * clk $end
+$var wire 1 / out $end
+$var wire 1 + reset $end
+$var wire 1 J Y2 $end
+$scope module E1 $end
+$var wire 1 I D $end
+$var wire 1 + clk $end
+$var wire 1 * reset $end
+$var reg 1 J S $end
+$upscope $end
+$upscope $end
+$scope module W $end
+$var wire 2 K T [1:0] $end
+$var wire 1 " T2 $end
+$var wire 1 0 Y $end
+$var wire 1 * clk $end
+$var wire 1 + reset $end
+$var wire 2 L EF [1:0] $end
+$var wire 2 M E [1:0] $end
+$scope module R1 $end
+$var wire 2 N D [1:0] $end
+$var wire 1 + clk $end
+$var wire 1 * reset $end
+$var reg 2 O S [1:0] $end
+$upscope $end
+$upscope $end
+$scope module W1 $end
+$var wire 2 P Ta [1:0] $end
+$var wire 1 0 Y $end
+$var wire 1 * clk $end
+$var wire 1 + reset $end
+$var wire 2 Q Ta2 [1:0] $end
+$var wire 2 R EF [1:0] $end
+$var wire 2 S E [1:0] $end
+$scope module R2 $end
+$var wire 2 T D [1:0] $end
+$var wire 1 + clk $end
+$var wire 1 * reset $end
+$var reg 2 U S [1:0] $end
+$upscope $end
+$upscope $end
+$scope module W2 $end
+$var wire 2 V P [1:0] $end
+$var wire 1 0 Y $end
+$var wire 1 * clk $end
+$var wire 1 + reset $end
+$var wire 2 W P2 [1:0] $end
+$var wire 2 X EF [1:0] $end
+$var wire 2 Y E [1:0] $end
+$scope module R3 $end
+$var wire 2 Z D [1:0] $end
+$var wire 1 + clk $end
+$var wire 1 * reset $end
+$var reg 2 [ S [1:0] $end
+$upscope $end
+$upscope $end
+$scope module W3 $end
+$var wire 2 \ Ac [1:0] $end
+$var wire 1 % Ac2 $end
+$var wire 1 0 Y $end
+$var wire 1 * clk $end
+$var wire 1 + reset $end
+$var wire 2 ] EF [1:0] $end
+$var wire 2 ^ E [1:0] $end
+$scope module R4 $end
+$var wire 2 _ D [1:0] $end
+$var wire 1 + clk $end
+$var wire 1 * reset $end
+$var reg 2 ` S [1:0] $end
+$upscope $end
+$upscope $end
+$scope module W4 $end
+$var wire 2 a B [1:0] $end
+$var wire 1 $ B2 $end
+$var wire 1 0 Y $end
+$var wire 1 * clk $end
+$var wire 1 + reset $end
+$var wire 2 b EF [1:0] $end
+$var wire 2 c E [1:0] $end
+$scope module R5 $end
+$var wire 2 d D [1:0] $end
+$var wire 1 + clk $end
+$var wire 1 * reset $end
+$var reg 2 e S [1:0] $end
+$upscope $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 e
+b0 d
+b0 c
+b0 b
+b0 a
+b0 `
+b0 _
+b0 ^
+b0 ]
+b0 \
+b0 [
+b0 Z
+b0 Y
+b0 X
+b1 W
+b0 V
+b0 U
+b0 T
+b0 S
+b0 R
+b1 Q
+b0 P
+b0 O
+b0 N
+b0 M
+b0 L
+b0 K
+0J
+xI
+xH
+0G
+xF
+xE
+0D
+xC
+xB
+b0 A
+b0x @
+b0 ?
+b0 >
+b0 =
+b0x <
+b0 ;
+b0 :
+b0 9
+bx 8
+b0 7
+b0 6
+b0 5
+b1 4
+b0 3
+b0 2
+b1 1
+00
+z/
+z.
+z-
+bx ,
+x+
+1*
+x)
+x(
+x'
+bx &
+1%
+1$
+b1 #
+1"
+b1 !
+$end
+#4
+1+
+#5
+0*
+#6
+0+
+#10
+0H
+0E
+1B
+b0 &
+b0 ,
+b0 8
+0I
+0)
+0F
+0(
+1C
+1'
+1*
+#15
+0*
+#18
+0B
+b1 &
+b1 ,
+b1 8
+0C
+0'
+#20
+1*
+#25
+0*
+#26
+1B
+b0 &
+b0 ,
+b0 8
+1C
+1'
+#30
+1*
+#34
+1E
+0B
+1F
+1(
+0C
+0'
+#35
+0*
+#36
+b0xx <
+b0xx @
+0E
+b0x =
+b0x A
+1G
+1+
+#38
+0+
+#40
+b0x <
+b0x @
+1E
+0G
+b0 =
+b0 A
+1*
+#42
+0E
+1B
+0F
+0(
+1C
+1'
+#45
+0*
+#46
+1E
+0B
+1F
+1(
+0C
+0'
+#50
+0E
+b10 &
+b10 ,
+b10 8
+0F
+0(
+1*
+#55
+0*
+#58
+1E
+b0 &
+b0 ,
+b0 8
+1F
+1(
+#60
+1*
+#65
+0*
+#68
+b0xx <
+b0xx @
+0E
+b0x =
+b0x A
+1G
+1+
+#70
+b0x <
+b0x @
+1E
+0G
+b0 =
+b0 A
+0+
+1*
+#74
+0E
+1B
+0F
+0(
+1C
+1'
+#75
+0*
+#78
+1E
+0B
+1F
+1(
+0C
+0'
+#80
+1*
+#82
+0E
+b11 &
+b11 ,
+b11 8
+0F
+0(
+#85
+0*
+#90
+1E
+b0 &
+b0 ,
+b0 8
+1F
+1(
+1*
+#94
+0E
+1B
+0F
+0(
+1C
+1'
+#95
+0*
+#98
+1E
+0B
+1F
+1(
+0C
+0'
+#100
+1+
+1*
+#102
+0+
+#105
+0*
+#106
+0E
+1B
+0F
+0(
+1C
+1'
+#110
+1*
+#114
+0B
+b1 &
+b1 ,
+b1 8
+0C
+0'
+#115
+0*
+#118
+b10 &
+b10 ,
+b10 8
+#120
+1*
+#122
+1B
+b0 &
+b0 ,
+b0 8
+1C
+1'
+#125
+0*
+#126
+1E
+0B
+1F
+1(
+0C
+0'
+#130
+1*
+#132
+1+
+#134
+0+
+#135
+0*
+#138
+0E
+1B
+0F
+0(
+1C
+1'
+#140
+1*
+#145
+0*
+#146
+0B
+b11 &
+b11 ,
+b11 8
+0C
+0'
+#150
+b10 &
+b10 ,
+b10 8
+1*
+#154
+1E
+b0 &
+b0 ,
+b0 8
+1F
+1(
+#155
+0*
+#158
+0E
+1B
+0F
+0(
+1C
+1'
+#160
+1*
+#162
+1E
+0B
+1F
+1(
+0C
+0'
+#164
+1+
+#165
+0*
+#166
+0+
+#170
+0E
+1B
+0F
+0(
+1C
+1'
+1*
+#174
+1E
+0B
+1F
+1(
+0C
+0'
+#175
+0*
+#178
+0E
+b1 &
+b1 ,
+b1 8
+0F
+0(
+#180
+1*
+#182
+1H
+b0 &
+b0 ,
+b0 8
+1I
+1)
+#185
+0*
+#186
+0H
+0I
+0)
+#190
+1*
+#195
+0*
+#196
+b0xx <
+b0xx @
+b0x =
+b0x A
+1+
+#198
+0+
+#200
+b0x <
+b0x @
+b0 =
+b0 A
+1*
+#202
+1B
+1C
+1'
+#205
+0*
+#206
+1E
+0B
+1F
+1(
+0C
+0'
+#210
+0E
+b1 &
+b1 ,
+b1 8
+0F
+0(
+1*
+#214
+b10 &
+b10 ,
+b10 8
+#215
+0*
+#218
+1H
+b0 &
+b0 ,
+b0 8
+1I
+1)
+#220
+1*
+#222
+0H
+0I
+0)
+#225
+0*
+#230
+1*
+#235
+0*
+#240
+1*
